@@ -55,26 +55,31 @@ fun main (){
     var person: Person? = null
 
     val greeting: String? = "Hello there"
-    if (greeting != null) {
-        println("Joe says: '$greeting'")
-    }
+//    if (greeting != null) {
+//        println("Joe says: '$greeting'")
+//    }
+//
+//    println("greeting length = ${greeting?.length}")
+//
+//    val len = greeting?.length ?: 0
+//    println("Length is $len")
+//
+//    // exception when greeting is null
+//    val badLen = greeting!!.length
+//
+//    val safeGreeting: String? = greeting as? String
+//
+//
+//
+//    val studentName = arrayOf("Mawuli","Timothy","Daniel","Sarah","Fatima",66,23.8)
+//    for((index,data) in studentName.withIndex()){
+//        println("The index is : $index ")
 
-    println("greeting length = ${greeting?.length}")
 
-    val len = greeting?.length ?: 0
-    println("Length is $len")
-
-    // exception when greeting is null
-    val badLen = greeting!!.length
-
-    val safeGreeting: String? = greeting as? String
+    
 
 
-
-    val studentName = arrayOf("Mawuli","Timothy","Daniel","Sarah","Fatima",66,23.8)
-    for((index,data) in studentName.withIndex()){
-        println("The index is : $index ")
-    }
+  //  }
 
 
 
